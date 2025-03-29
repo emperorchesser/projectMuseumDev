@@ -42,7 +42,7 @@ const cameraPosition = camera.position;
 const controls = new PointerLockControls(camera, renderer.domElement)
 // const transformControls = new TransformControls(camera, renderer.domElement)
 
-window.addEventListener("mousedown", function(event){
+window.addEventListener("mousedown", function(event) {
             controls.lock();
             this.onmousedown;
             
