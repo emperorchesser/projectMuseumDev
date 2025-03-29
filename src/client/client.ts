@@ -153,7 +153,7 @@ const floorMuseum = new FBXLoader().load('object/floor/Floor.FBX', function  (sc
 })
 
 
-const floorMuseum2 = new FBXLoader().load('object/floor/Floor.FBX', function  (sceneObj: THREE.Object3D<THREE.Event>) {
+const floorMuseum2 = new FBXLoader().load('object/floor/Floor.FBX', function  (sceneObj) {
     sceneObj.position.set(28,0,2)
     sceneObj.scale.setScalar(1/8)
     sceneObj.scale.x = 0.4
